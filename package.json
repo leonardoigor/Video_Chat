@@ -1,0 +1,16 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "budo index.js:bundle.js --ssl"
+  },
+  "dependencies": {
+    "budo": "^11.6.4",
+    "simple-peer": "^9.7.2"
+  }
+}
